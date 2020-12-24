@@ -1,0 +1,31 @@
+{
+  "name": "symbols-and-generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daria-chizh/Symbols-and-generators.git"
+  },
+  "author": "daria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daria-chizh/Symbols-and-generators/issues"
+  },
+  "homepage": "https://github.com/Daria-chizh/Symbols-and-generators#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1"
+  }
+}
